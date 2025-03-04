@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <div class="dev-board">
+                <img src="/assets/logo.png" alt="">
+                <p>Dev<b>Board</b></p>
+            </div>
+        </div>
+        <a href="/index.html">
+            <div class="right">
+                <button class="btn2">Back To Desk</button>
+            </div>
+        </a>
+       
+    </nav>
+
+    <main>
+        <div class="Q Q-1">
+            <p>Question-1: What are the different ways to select an element in the DOM?</p>
+            <div style="border-bottom: 2px dashed #3752FD;opacity:20%; width:1495px; margin-bottom:12px;"></div>
+            <A>We can use document.getElementByID,document.querySelector,document.querySelectorAll, document.getElementsByClassname,document.getElementByTagName. Through these we store the element in a variable and process further operations.</A>
+        </div>
+        <div class="Q Q-2">
+            <p>Question-2: What is the difference between innerHTML, innerText, and textContent ?</p>
+            <div style="border-bottom: 2px dashed #3752FD;opacity:20%; width:1495px; margin-bottom:12px;"></div>
+            <A>innerHTML takes the whole element including the tag, any kind of text (visible or invisible) inside the tag. <br>innerText gives the visible texts only without the tags. <br>
+            textContent gives only the texts(visible and invisible both).</A>
+        </div>
+        <div class="Q Q-3">
+            <p>Question-3: What is event delegation in the DOM?</p>
+            <div style="border-bottom: 2px dashed #3752FD;opacity:20%; width:1495px; margin-bottom:12px;"></div>
+            <A>It is a technique to reduce time and space complexity by writing only a single code and make it propagate to the parent node from the target node</A>
+        </div>
+        <div class="Q Q-4">
+            <p>Question-4: What is event bubbling in the DOM?</p>
+            <div style="border-bottom: 2px dashed #3752FD;opacity:20%; width:1495px; margin-bottom:12px;"></div>
+            <A>Event Bubbling refers to the mechanism of an event to trigger from the target element and propagate or bubble up to the root element.</A>
+        </div>
+        <div class="Q Q-5">
+            <p>Question-5: How do you create, add, and remove elements using JavaScript?</p>
+            <div style="border-bottom: 2px dashed #3752FD;opacity:20%; width:1495px; margin-bottom:12px;"></div>
+            <A>To create element we use document.createELement(TagNAme) <br>
+            To add element we use document.appendChild(variable). [Here we store the element(that was created earlier)  in the variable <br>To remove an element first we select the element with specific selector and the use .remove() method. </A>
+        </div>
+    </main>
+</body>
+</html>

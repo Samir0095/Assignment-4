@@ -1,0 +1,35 @@
+
+.btn2{
+    color: white;
+    background-color: #3752FD ;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 135px;
+    height: 50px;
+    border: none;
+    margin-top: 23px;
+    margin-right: 30px;
+}
+.btn2:hover{
+    scale: 1.05;
+}
+
+.Q{
+    width: 1463px;
+    height: auto;
+    background-color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-bottom:15px;
+    border-radius: 5px;
+}
+.Q > p{
+    font-weight: 700;
+
+}
+.Q > A{
+    opacity: 60%;
+}
